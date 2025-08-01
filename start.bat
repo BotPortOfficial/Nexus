@@ -1,5 +1,6 @@
 @echo off
 
-npm run start
+call npm run start
 
-pause
+echo Press any key to close this window...
+pause >nul

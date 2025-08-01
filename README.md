@@ -10,8 +10,9 @@
 	<p>
 	    <a href="https://discord.gg/sRyU4GFraG"><img src="https://img.shields.io/discord/1383201315072639058?color=5865F2&logo=discord&logoColor=white" alt="Discord server" /></a>
 		<a href="https://github.com/BotPortOfficial/ticket-bot"><img src="https://img.shields.io/github/last-commit/BotPortOfficial/ticket-bot?logo=github&logoColor=white&style=flat-square" alt="Last commit" /></a>
-		<a href="https://github.com/BotPortOfficial/tickets"><img src="https://img.shields.io/badge/framework-%40botport%2Ftickets-blue?style=flat-square" alt="Framework" /></a>
+		<a href="https://www.npmjs.com/package/@botport/tickets"><img src="https://img.shields.io/badge/framework-%40botport%2Ftickets-blue?style=flat-square" alt="Framework" /></a>
 		<a href="https://github.com/BotPortOfficial/ticket-bot/graphs/contributors"><img src="https://img.shields.io/github/contributors/BotPortOfficial/ticket-bot?logo=github&logoColor=white&color=blue&style=flat-square" alt="Contributors" /></a>
+		<a href="https://github.com/BotPortOfficial/ticket-bot/releases"><img src="https://img.shields.io/github/v/release/BotPortOfficial/ticket-bot?style=flat-square" alt="Latest Release" /></a>
 		<a href="https://github.com/BotPortOfficial/ticket-bot/blob/main/LICENSE"><img src="https://img.shields.io/github/license/BotPortOfficial/ticket-bot?style=flat-square" alt="License" /></a>
 </div>
 </div>
