@@ -19,33 +19,23 @@
 
 ## 📋 About
 
-**Nexus** is a powerful and extensible Discord bot built on the [@botport/core](https://github.com/BotPortOfficial/core) framework. Designed with both users and developers in mind, this bot offers a seamless ticket management experience with full addon support.
+**Nexus** is a powerful and extensible Discord bot built on the [@botport/core](https://github.com/BotPortOfficial/core) framework. Designed with both users and developers in mind, this bot offers a seamless experience and relies on addons.
+Addons is the functions for the bot, this is essentially a skeleton, you code your own addons and add them to the bot.
+The bot loads it and executes them at runtime, ensuring a smooth experience for both users and developers.
 
 > ⚠️ **Important Notice**: While this bot is open source, we do not provide support, documentation, or assistance for the underlying [@botport/core](https://github.com/BotPortOfficial/core) framework or custom implementations.
 
 ## 🚀 Features
 
-- ✅ **User-friendly interface** - Intuitive ticket management for all users
 - ✅ **Developer-friendly architecture** - Easy to understand and modify
-- ✅ **Automatic addon discovery** - Scans `src/addons/` for valid addon directories
+- ✅ **Automatic addon discovery** - Uses the core framework to automatically discover addons in `src/addons/` for valid addons
 - ✅ **Dynamic loading system** - Imports and executes addons at runtime
-- ✅ **Robust error handling** - Failed addons won't crash the bot
-- ✅ **addon.info validation** - Ensures proper addon structure and metadata
-- ✅ **Extensible framework** - Built on the robust @botport/tickets foundation
+- ✅ **Robust error handling** - Failed addons won't crash the bot, instead they will trigger a error with explination
+- ✅ **Extensible framework** - Built on the robust @botport/core framework
+- ✅ **No built in features** - You don't get any made features for the bot, you can either create your own features or download premade addons."
+- ✅ **Debug Mode** - If this feature is enabled in the `.env` file, it will provide detailed logging if you are experiencing any issues or want to debug the bot.
 - ✅ **Open source** - Free to use and modify
 - ✅ **Regular updates** - Maintained and improved continuously
-
-## 🔧 Addon Development
-
-This bot features a sophisticated addon system powered by the @botport/core framework:
-
-### ✨ Key Features
-- **Automatic Discovery**: Addons are automatically detected in `src/addons/` if enabled in the `.env` file.
-- **Dynamic Loading**: Each addon is imported and executed at runtime
-- **Error Handling**: Failed addons won't crash the bot
-- **Debug Support**: Detailed logging for development
-- **Validation**: Ensures proper addon structure before loading
-- **Version Control**: Track addon versions through addon.info
 
 ## 📦 Installation
 
@@ -58,13 +48,15 @@ npm install
 ## ⚙️ Setup
 
 1. Clone the repository
-2. Install dependencies with `npm install`
-3. Configure your bot token and environment variables
-5. Run the bot with the included `start.bat` or with your own desired startup configuration
+2. Open powershell or desired software and navigate to the cloned repository
+3. Run `npm install` to install the required dependencies
+4. Install dependencies with `npm install`
+5. Configure your bot token and environment variables in the `.env` file located in the `config` directory
+6. Run the bot with the included `start.bat` or with your own desired startup configuration
 
 ## 📄 License
 
-This project is licensed under the [MIT licence](https://github.com/BotPortOfficial/nexus/blob/main/LICENSE).
+This project is licensed under the [MIT license](https://github.com/BotPortOfficial/nexus/blob/main/LICENSE).
 
 ---
 
