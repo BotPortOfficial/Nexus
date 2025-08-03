@@ -1,10 +1,6 @@
-framework: Xenshop
-name: Tickets
-version: 1.4.1
 author: RiktigaTomten
-description: Ett avancerat modulärt ticket system till din discord server.
-
 mainfile: ./script/main.ts
 eventfile: ./events/tickethandler.js
 mainconfig: ./config/ticketoptions.json
 type: addon
+
