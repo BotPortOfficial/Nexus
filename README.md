@@ -1,27 +1,27 @@
 <div align="center">
 	<br />
 	<p>
-		<img src="https://raw.githubusercontent.com/BotPortOfficial/ticket-bot/main/.github/workflows/banner.png" width="546" alt="Ticket Bot" />
+		<img src="https://raw.githubusercontent.com/BotPortOfficial/nexus/main/.github/workflows/banner.png" width="546" alt="Ticket Bot" />
 	</p>
 	<p>
 </a>
 </p>
 	<br />
 	<p>
-	    <a href="https://discord.gg/sRyU4GFraG"><img src="https://img.shields.io/discord/1383201315072639058?color=5865F2&logo=discord&logoColor=white" alt="Discord server" /></a>
-		<a href="https://github.com/BotPortOfficial/ticket-bot"><img src="https://img.shields.io/github/last-commit/BotPortOfficial/ticket-bot?logo=github&logoColor=white&style=flat-square" alt="Last commit" /></a>
-		<a href="https://www.npmjs.com/package/@botport/tickets"><img src="https://img.shields.io/badge/framework-%40botport%2Ftickets-blue?style=flat-square" alt="Framework" /></a>
-		<a href="https://github.com/BotPortOfficial/ticket-bot/graphs/contributors"><img src="https://img.shields.io/github/contributors/BotPortOfficial/ticket-bot?logo=github&logoColor=white&color=blue&style=flat-square" alt="Contributors" /></a>
-		<a href="https://github.com/BotPortOfficial/ticket-bot/releases"><img src="https://img.shields.io/github/v/release/BotPortOfficial/ticket-bot?style=flat-square" alt="Latest Release" /></a>
-		<a href="https://github.com/BotPortOfficial/ticket-bot/blob/main/LICENSE"><img src="https://img.shields.io/github/license/BotPortOfficial/ticket-bot?style=flat-square" alt="License" /></a>
+	    <a href="https://discord.gg/sRyU4GFraG"><img src="https://img.shields.io/discord/1383201315072639058?color=5865F2&logo=discord&logoColor=white" alt="Discord" /></a>
+		<a href="https://github.com/BotPortOfficial/nexus"><img src="https://img.shields.io/github/last-commit/BotPortOfficial/nexus?logo=github&logoColor=white&style=flat-square" alt="Last commit" /></a>
+		<a href="https://www.npmjs.com/package/@botport/core"><img src="https://img.shields.io/badge/framework-%40botport%2Fcore-blue?style=flat-square" alt="Framework" /></a>
+		<a href="https://github.com/BotPortOfficial/nexus/graphs/contributors"><img src="https://img.shields.io/github/contributors/BotPortOfficial/nexus?logo=github&logoColor=white&color=blue&style=flat-square" alt="Contributors" /></a>
+		<a href="https://github.com/BotPortOfficial/nexus/releases"><img src="https://img.shields.io/github/v/release/BotPortOfficial/nexus?style=flat-square" alt="Latest Release" /></a>
+		<a href="https://github.com/BotPortOfficial/nexus/blob/main/LICENSE"><img src="https://img.shields.io/github/license/BotPortOfficial/nexus?style=flat-square" alt="License" /></a>
 </div>
 </div>
 
 ## 📋 About
 
-**Ticket Bot** is a powerful and extensible Discord bot built on the [@botport/tickets](https://github.com/BotPortOfficial/tickets) framework. Designed with both users and developers in mind, this bot offers a seamless ticket management experience with full addon support.
+**Nexus** is a powerful and extensible Discord bot built on the [@botport/core](https://github.com/BotPortOfficial/core) framework. Designed with both users and developers in mind, this bot offers a seamless ticket management experience with full addon support.
 
-> ⚠️ **Important Notice**: While this bot is open source, we do not provide support, documentation, or assistance for the underlying [@botport/tickets](https://github.com/BotPortOfficial/tickets) framework or custom implementations.
+> ⚠️ **Important Notice**: While this bot is open source, we do not provide support, documentation, or assistance for the underlying [@botport/core](https://github.com/BotPortOfficial/core) framework or custom implementations.
 
 ## 🚀 Features
 
@@ -37,27 +37,7 @@
 
 ## 🔧 Addon Development
 
-This bot features a sophisticated addon system powered by the @botport/tickets framework:
-
-### 📁 Addon Structure
-```
-src/addons/
-├── my-addon/
-│   ├── addon.info
-│   └── index.js (or your mainfile)
-└── another-addon/
-    ├── addon.info
-    └── main.js
-```
-
-### 📋 addon.info Format
-```ini
-name=My Awesome Addon
-version=1.0.0
-type=addon
-mainfile=index.js
-description=This addon does amazing things
-```
+This bot features a sophisticated addon system powered by the @botport/core framework:
 
 ### ✨ Key Features
 - **Automatic Discovery**: Addons are automatically detected in `src/addons/` if enabled in the `.env` file.
@@ -70,8 +50,8 @@ description=This addon does amazing things
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/BotPortOfficial/ticket-bot.git
-cd ticket-bot
+git clone https://github.com/BotPortOfficial/nexus.git
+cd nexus
 npm install
 ```
 
@@ -84,7 +64,7 @@ npm install
 
 ## 📄 License
 
-This project is licensed under the [MIT licence](https://github.com/BotPortOfficial/ticket-bot/blob/main/LICENSE).
+This project is licensed under the [MIT licence](https://github.com/BotPortOfficial/nexus/blob/main/LICENSE).
 
 ---
 
